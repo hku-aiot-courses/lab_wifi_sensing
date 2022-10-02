@@ -16,7 +16,7 @@ In this part, you will learn how to collect, visualize, and process CSI data. We
 Please kindly note that the tutorial is not sufficient for you to get a very high score. (grading criteria is at the end of this document) You are encouraged to read the paper and understand the algorithm mentioned in the tutorial.
 
 ### Dataset Introduction & Visualization: Understand CSI
-This section will introduce the basics of CSI and how to collect it. As we will provide datasets for you to use (to test your model), therefore you do not need to collect CSI data (Please download the dataset from https://1drv.ms/u/s!Ajq1o16ob8nOpATBZ6l6JaKgrYRU?e=ICh1UG and place it in the current directory).
+This section will introduce the basics of CSI and how to collect it. As we will provide datasets for you to use (to test your model), therefore you do not need to collect CSI data (Please download the dataset from https://1drv.ms/u/s!Ajq1o16ob8nOpAdw7fcq_YnsyJPM?e=k47DJb and place it in the current directory).
 
 You will be able to:
 1. Get an understanding of CSI data, from both time and frequency domain, and the meaning of its amplitude and phase.
