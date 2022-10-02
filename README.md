@@ -13,7 +13,7 @@ Hornor Code: You should NEVER share your code with others groups or as a public 
 ## PART I Tutorial
 In this part, you will learn how to collect, visualize, and process CSI data. We will provide you a example pipeline for breath rate estimation. All you need is to read, run, and understand the code.
 
-Please kindly note that the tutorial is not sufficient for you to get a very high score.(grading criteria is at the end of this document) You are encouraged to read the paper and understand the algorithm mentioned in the tutorial.
+Please kindly note that the tutorial is not sufficient for you to get a very high score. (grading criteria is at the end of this document) You are encouraged to read the paper and understand the algorithm mentioned in the tutorial.
 
 ### Dataset Introduction & Visualization: Understand CSI
 This section will introduce the basics of CSI and how to collect it. As we will provide datasets for you to use (to test your model), therefore you do not need to collect CSI data (Please download the dataset from https://1drv.ms/u/s!Ajq1o16ob8nOpATBZ6l6JaKgrYRU?e=ICh1UG and place it in the current directory).
@@ -32,7 +32,7 @@ In this part, you are required to implement your own pipeline for breath rate es
 ## Grading Criteria
 
 We will only grade your code for Task 1-3.
-We will grade your code based on the following criteria (Totally 80 points in this lab): 1. Completeness of the pipeline, 2. Performance of your method. (Details refer to the lab_wifi_sensing.ipynb file)
+We will grade your code based on the following criteria (Totally 80 points in this lab): 1. Completeness of the pipeline,  2. Correctness of your code, 3. Performance of your method. (Details refer to the lab_wifi_sensing.ipynb file)
 
 \* Originality: You are encouraged to read the mentioned paper and algorithm, and either borrow the ideas or design your own method to finish the job. You can also fine tune the baseline method provided in the tutorial, and get at most 80% of the Originality points.
 
@@ -42,10 +42,11 @@ We will grade your code based on the following criteria (Totally 80 points in th
 
 <font color=red>1. Part1: Tutorial</font>
  - 1.1 Dataset introduction
-  - 1.1.1 Experiment environment
-  - 1.1.2 Dataset files
-  
-  
+   - 1.1.1 Experiment environment
+   - 1.1.2 Dataset files
+
+
+
 - 1.2. Visualization
   - 1.2.1 CSI visualization in the time domain
       - 1.2.1.1 Visualization of one subcarrier's amplitude and phase of one link
@@ -54,7 +55,6 @@ We will grade your code based on the following criteria (Totally 80 points in th
       - 1.2.1.4 Comparison of background CSI and 12 BPM CSI
   - 1.2.2 CSI visualization in frequency domain
   - 1.2.3 Visualization of all ground-truth
-  
   
 - 1.3. Breath estimation pipeline
   - 1.3.1 Data loading
