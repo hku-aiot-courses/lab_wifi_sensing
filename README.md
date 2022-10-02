@@ -40,36 +40,37 @@ We will grade your code based on the following criteria (Totally 80 points in th
 
 ## Table of contents in lab_wifi_sensing.ipynb
 
-<font color=red>Part1: Tutorial</font> 
+<font color=red>1. Part1: Tutorial</font>
+ - 1.1 Dataset introduction
+  - 1.1.1 Experiment environment
+  - 1.1.2 Dataset files
+  
+  
+- 1.2. Visualization
+  - 1.2.1 CSI visualization in the time domain
+      - 1.2.1.1 Visualization of one subcarrier's amplitude and phase of one link
+      - 1.2.1.2 Visualization of amplitude and phase of all subcarriers
+      - 1.2.1.3 Visualization of one subcarrier's amplitude of all links
+      - 1.2.1.4 Comparison of background CSI and 12 BPM CSI
+  - 1.2.2 CSI visualization in frequency domain
+  - 1.2.3 Visualization of all ground-truth
+  
+  
+- 1.3. Breath estimation pipeline
+  - 1.3.1 Data loading
+  - 1.3.2 Preprocessing
+  - 1.3.3 Feature Extraction
+  - 1.3.4 Peak Detection
+  - 1.3.5 Result Evaluation
 
-1. Dataset introduction
-  - 1.1 Experiment environment
-  - 1.2 Dataset files
+<font color=red>2. Part2: Task</font>
+- 2.1 Task1: Controlled breath estimation (one person) (Points: 60)
 
+- 2.2 Task2: Controlled breath estimation (two person) (Points: 10)
 
-2. Visualization
-  - 2.1 CSI visualization in the time domain
-      - 2.1.1 Visualization of one subcarrier's amplitude and phase of one link
-      - 2.1.2 Visualization of amplitude and phase of all subcarriers
-      - 2.1.3 Visualization of one subcarrier's amplitude of all links
-      - 2.1.4 Comparison of background CSI and 12 BPM CSI
-  - 2.2 CSI visualization in frequency domain
-  - 2.3 Visualization of all ground-truth
+- 2.3 Task3: Varied breath estimation (one person) (Points: 10)
 
-
-3. Breath estimation pipeline
-  - 3.1 Data loading
-  - 3.2 Preprocessing
-  - 3.3 Feature Extraction
-  - 3.4 Peak Detection
-  - 3.5 Result Evaluation
-
-<font color=red>Part2: Task</font> (Points: 80)
-
-1. Task1: Controled breath estimation (one person) (Points: 60)
-2. Task2: Varied breath estimation (one person) (Points: 10)
-3. Task3: Controlled breath estimation (two person) (Points: 10)
-4. Bonus (Optional)
+- 2.4 Advanced Task (Optional Bonus)
 
 ---
 ---
